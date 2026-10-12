@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="index,follow">
+<meta name="description" content="Chính sách quyền riêng tư của ZALO AI Agent Bridge.">
+<title>Quyền riêng tư | ZALO AI Agent Bridge</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header><strong>ZALO AI AGENT</strong> &nbsp; <a href="./">Trang chủ</a><a href="privacy.html" aria-current="page">Quyền riêng tư</a><a href="terms.html">Điều khoản</a></header>
+<main><article>
+<p class="tag">Cập nhật ngày 12/10/2026</p>
+<h1>Chính sách quyền riêng tư</h1>
+<p>Chính sách này mô tả cách ZALO AI Agent Bridge, công cụ quản trị dự án Google Apps Script do chủ sở hữu trực tiếp vận hành, truy cập và sử dụng dữ liệu Google khi được chủ tài khoản cấp quyền. Website giới thiệu công khai này không yêu cầu đăng nhập Google.</p>
+<h2>Dữ liệu được truy cập</h2>
+<p>Khi chủ tài khoản cấp quyền OAuth <code>https://www.googleapis.com/auth/script.projects</code>, quy trình quản trị có thể đọc cấu hình dự án và mã nguồn Google Apps Script, tạo phiên bản sao lưu và cập nhật nội dung dự án. Chỉ các dự án đã được định danh trong cấu hình triển khai mới được nhắm tới; việc cấp quyền không đồng nghĩa với việc cho phép thay đổi không kiểm soát.</p>
+<h2>Mục đích sử dụng</h2>
+<ul>
+<li>Kiểm tra cấu trúc dự án, đối chiếu tên tệp và SHA-256 để phát hiện thay đổi ngoài dự kiến.</li>
+<li>Tạo phiên bản Apps Script trước khi cập nhật và kiểm tra nội dung sau khi ghi, khi có lệnh triển khai được chủ tài khoản phê duyệt.</li>
+<li>Ghi nhật ký kỹ thuật ở mức cần thiết cho chẩn đoán, kiểm toán và phục hồi.</li>
+</ul>
+<h2>Lưu trữ và dịch vụ xử lý</h2>
+<p>Mã nguồn ứng viên và cấu hình phát hành được lưu trong kho GitHub riêng tư do chủ sở hữu kiểm soát. Khi được cấu hình, thông tin xác thực OAuth được lưu dưới dạng GitHub Actions Secrets, không được đưa vào mã nguồn công khai. Google cung cấp dịch vụ OAuth và Apps Script API; GitHub cung cấp kho mã, thực thi workflow và nhật ký chạy. Dữ liệu có thể được xử lý trên hạ tầng của các nhà cung cấp này theo điều khoản của họ.</p>
+<h2>Chia sẻ và bảo vệ dữ liệu</h2>
+<p>Công cụ không được thiết kế để bán dữ liệu Google của chủ tài khoản hoặc dùng dữ liệu đó cho quảng cáo. Website công khai không chứa mã nguồn riêng tư, thông tin xác thực hay dữ liệu nghiệp vụ. Các thao tác ghi mã trong workflow triển khai được bảo vệ bằng điều kiện phạm vi tệp, mã phiên bản và kiểm tra SHA-256.</p>
+<h2>Thời hạn lưu trữ và thu hồi quyền</h2>
+<p>Nhật ký GitHub Actions, phiên bản Apps Script và bản sao lưu có thời hạn lưu trữ theo cấu hình của từng dịch vụ và chính sách do chủ tài khoản quản lý. Chủ tài khoản có thể thu hồi quyền OAuth tại <a href="https://myaccount.google.com/connections">Google Account — Connections</a>, xóa hoặc thay thế các GitHub Secrets và yêu cầu ngừng quy trình tự động.</p>
+<h2>Quyền kiểm soát và yêu cầu</h2>
+<p>Chủ tài khoản có thể yêu cầu xem, chỉnh sửa hoặc xóa dữ liệu do quy trình quản trị tạo ra, trong phạm vi luật áp dụng và cơ chế phục hồi/kiểm toán. Các phiên bản sao lưu và nhật ký kỹ thuật có thể được giữ lại khi cần thiết cho tính toàn vẹn vận hành.</p>
+<h2>Liên hệ</h2>
+<p>Email liên hệ của chủ sở hữu: <a href="mailto:tukhoicp01@gmail.com">tukhoicp01@gmail.com</a>.</p>
+<p><a href="./">Trở về trang giới thiệu</a></p>
+</article></main><footer>© 2026 ZALO AI Agent Bridge · Chính sách cho ứng dụng quản trị do chủ tài khoản vận hành.</footer>
+</body></html>
